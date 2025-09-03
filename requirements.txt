@@ -1,0 +1,21 @@
+# ==========================
+# requirements.txt
+# ==========================
+Flask
+Flask-SQLAlchemy
+requests
+textblob
+gunicorn
+Werkzeug
+
+# ==========================
+# Procfile
+# ==========================
+web: gunicorn main:app
+
+# ==========================
+# .env.example
+# ==========================
+SESSION_SECRET=your-secret-key
+DATABASE_URL=sqlite:///citizenai.db
+HF_API_KEY=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
