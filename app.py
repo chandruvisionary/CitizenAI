@@ -33,7 +33,7 @@ app.config["SQLALCHEMY_ENGINE_OPTIONS"] = {
 db.init_app(app)
 
 # Hugging Face API configuration
-HF_API_KEY = os.environ.get("HF_API_KEY", "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")
+HF_API_KEY = os.environ.get("HF_API_KEY", "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")
 HF_API_URL = "https://api-inference.huggingface.co/models/ibm-granite/granite-3.3-8b-instruct"
 
 # Database Models
